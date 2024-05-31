@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+     <input type="text" class="display" id="display" readonly placeholder="">
+       <div class="button-row">
+        <button class="button Ac" onclick="Click('AC')">AC</button>   
+        <button class="button" onclick="Click('(')">&#40;</button>
+        <button class="button" onclick="Click(')')">&#41;</button>
+       
+        <button class="button minus red" onclick="Click('-')">&minus;</button>
+       </div>
+       <div class="button-row">
+        <button class="button" onclick="Click('1')">1</button>
+        <button class="button" onclick="Click('2')">2</button>
+        <button class="button" onclick="Click('3')">3</button>
+        <button class="button plus red" onclick="Click('+')">&plus;</button>
+       </div>
+       <div class="button-row">
+        <button class="button" onclick="Click('4')">4</button>
+        <button class="button" onclick="Click('5')">5</button>
+        <button class="button" onclick="Click('6')">6</button>
+        <button class="button divide red" onclick="Click('÷')">&divide;</button>
+       </div>
+       <div class="button-row">
+        <button class="button " onclick="Click('7')">7</button>
+        <button class="button" onclick="Click('8')">8</button>
+        <button class="button" onclick="Click('9')">9</button>
+        <button class="button times red" onclick="Click('×')">&times;</button>
+       </div>
+       <div class="button-row">
+        <button class="button zero" onclick="Click('0')">0</button>
+        <button class="button" onclick="Click('.')">.</button>
+        <button class="button equals red" onclick="Click('=')">&equals;</button>
+       </div>
+       
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
